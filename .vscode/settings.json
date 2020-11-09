@@ -1,0 +1,35 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#FFBF00",
+    "titleBar.inactiveBackground": "#FFBF00",
+    "titleBar.activeForeground": "#000000",
+    "titleBar.inactiveForeground": "#000000"
+  },
+  "editor.wordWrapColumn": 180,
+  "prettier.disableLanguages": [],
+  "git.autofetch": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "breadcrumbs.enabled": true,
+  "git.confirmSync": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "element-helper.version": "2.4",
+  "[javascript]": {},
+  "[typescript]": {},
+  "files.insertFinalNewline": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "git.ignoreLimitWarning": true,
+  "workbench.settings.editor": "json",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "extensions.ignoreRecommendations": true,
+  "debug.allowBreakpointsEverywhere": true
+}
