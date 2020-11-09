@@ -1,2 +1,3 @@
 # ts-neo4j-parser
-Neo4j Typescript Parser
+
+Typescript Neo4j parser to JSON

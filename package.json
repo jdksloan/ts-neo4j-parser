@@ -4,6 +4,21 @@
   "description": "Typescript Neo4j parser to JSON",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "neo4j-driver": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.3",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.0.5"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "jest --coverage --no-cache --detectOpenHandles",
@@ -15,33 +30,16 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jdksloan/ts-graph-structure.git"
-  },
-  "files": [
-    "lib/**/*"
-  ],
   "keywords": [
-    "Graph",
-    "Queue",
-    "Node",
+    "JSON",
+    "Neo4j",
+    "Parser",
     "TypeScript"
   ],
   "author": "Jethro Sloan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jdksloan/ts-graph-structure/issues"
+    "url": "https://github.com/jdksloan/ts-neo4j-parser/issues"
   },
-  "homepage": "https://github.com/jdksloan/ts-graph-structure#readme",
-  "devDependencies": {
-    "@types/jest": "^26.0.15",
-    "jest": "^26.6.3",
-    "neo4j-driver": "^4.1.2",
-    "prettier": "^2.1.2",
-    "ts-jest": "^26.4.3",
-    "tslint": "^6.1.3",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^4.0.5"
-  }
+  "homepage": "https://github.com/jdksloan/ts-neo4j-parser#readme"
 }
