@@ -43,10 +43,10 @@ export class IntegerUtils {
     let result = '';
 
     while (fullBinaryNumber.length > 0) {
-      let remainingToConvert = '',
-        resultDigit = 0;
-      for (let position = 0; position < fullBinaryNumber.length; ++position) {
-        const currentValue = Number(fullBinaryNumber[position]) + resultDigit * 2;
+      let remainingToConvert = '';
+      let resultDigit = 0;
+      for (const char of fullBinaryNumber) {
+        const currentValue = Number(char) + resultDigit * 2;
         const remainingDigitToConvert = Math.floor(currentValue / 10);
         resultDigit = currentValue % 10;
         if (remainingToConvert.length || remainingDigitToConvert) {
